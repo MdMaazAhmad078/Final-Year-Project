@@ -1,0 +1,99 @@
+.Top_Header {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    height: 5rem;
+}
+
+.Header_logo {
+    height: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.Header_name_logo {
+    padding-left: 1rem;
+    width: 6rem;
+}
+
+.Top_Left_Header {
+    display: flex;
+    width: 80%;
+    font-family: 'open sans', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.Top_Right_Header {
+    width: 20%;
+    margin-top: 1rem;
+    float:right;
+    align-items:right;
+    justify-content:right;
+}
+
+.Bottom_Header {
+    height: 5rem;
+    background-image: linear-gradient(-45deg, #0facff 0%, #58c5ff 100%);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bottom_Header_Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Menu {
+    margin-inline: 3px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu a {
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Menu .Round{
+    background-image: linear-gradient(-45deg, #0facff 0%, #58c5ff 100%);
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+}
+.Menu .Round:hover{
+    background:#DD1144;
+}
+
+.Menu .Round img{
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 1024px) {
+    .Top_Left_Header{
+        width: 90%;
+    }
+    .Top_Right_Header{
+        width: 10%;
+    }
+}

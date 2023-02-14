@@ -1,0 +1,111 @@
+.body{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.upper_body{
+    display:flex;
+    height: 40vh;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+    gap: 1rem;
+}
+.upper_left_body{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    width: 60%;
+}
+.upper_right_body{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    width: 40%;
+}
+.table_card{
+    background-color:#F6F7F8;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.table_card_title{
+    font-weight: 600;
+    height: 2.8rem;
+    text-align: left;
+    padding: 1.5rem 0px 1rem 1rem;
+    font-size: 2rem;
+    color: rgb(6 122 107);
+}
+.bg_d{
+    background-color:#F6F7F8;   
+    border-radius: 0.75rem
+}
+.lower_body{
+    display:flex;
+    height: 40vh;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.lower_left_body{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    width: 60%;
+}
+.lower_right_body{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    width: 40%;
+    height: 18.8rem;
+}
+.lower_body_card_title{
+    font-weight: 600;
+    height: 2.8rem;
+    text-align: left;
+    padding: 1.5rem 0px 0.2rem 1rem;
+    font-size: 2rem;
+    color: rgb(6 122 107);
+}
+.jd_card{
+    margin: 0.5rem 0px 0px 2rem;
+    display:flex;
+    gap: 1rem;
+}
+.card{
+    width:30%;
+    height:6rem;
+    background-color:#7ea9e1 ;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.card_name{
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.leader_table_card{
+    background-color:#F6F7F8;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    .upper_left_body{
+        width: 70%;
+    }
+    .upper_right_body{
+        width: 30%;
+    }
+    .lower_left_body{
+        width: 70%;
+    }
+    .lower_right_body{
+        width: 30%;
+    }
+}
