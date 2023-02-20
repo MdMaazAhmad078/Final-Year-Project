@@ -6,6 +6,7 @@ import Name from "../image/Name.jpg";
 import Recommendation from "../image/Recommend.jpg";
 import Drive from "../image/Drive.png";
 import Cources from "../image/Cources.png";
+import Home from "../image/Home.png";
 import { MdNotifications, MdLibraryBooks, MdDashboardCustomize } from "react-icons/md";
 import { GrPowerShutdown } from "react-icons/gr";
 import IconButton from '@mui/material/IconButton';
@@ -26,9 +27,11 @@ export default function header() {
                         <Tooltip title=<p>Notification</p> arrow>
                             <IconButton className='top-icon'><MdNotifications style={{ fontSize: "1.65rem" }} /></IconButton>
                         </Tooltip>
+                        <Link to="/Profile"> 
                         <Tooltip title=<p>Profile</p> arrow>
                             <IconButton className='top-icon'><FaUserCircle style={{ fontSize: "1.6rem" }} /></IconButton>
                         </Tooltip>
+                        </Link>
                         {/* <Link to="/"> */}
                         <Tooltip title=<p>Logout</p> arrow>
                             <IconButton className='top-icon' ><GrPowerShutdown style={{ fontSize: "1.6rem" }} /></IconButton>
@@ -39,20 +42,20 @@ export default function header() {
                 <div className='Bottom_Header'>
                     <div className='Bottom_Header_Content'>
                         <div className='Menu'>
-                            <div className='Round' style={{ marginLeft: "1rem" }}>
-                                <img src={Recommendation} />
+                            <div className='Round' >
+                            <Link to="/"><img src={Home} style={{marginTop:"3px"}}/></Link>
                             </div>
-                            <a>RECOMMEND</a>
+                            <Link to="/"><a style={{marginLeft:"0.5rem"}}>HOME</a></Link>
                         </div>
                         <div className='Menu'>
                             <div className='Round'>
-                                <Link to="/Drives"><img src={Drive} /></Link>
+                                <Link to="/Drives"><img src={Drive} style={{marginTop:"3px"}}/></Link>
                             </div>
                             <Link to="/Drives"><a style={{ marginLeft: "0.2rem" }}>DRIVES</a></Link>
                         </div>
                         <div className='Menu'>
-                            <div className='Round'>
-                                <Link to="/Cources"><img src={Cources} /></Link>
+                            <div className='Round' style={{marginLeft:"3px"}}>
+                                <Link to="/Cources"><img src={Cources} style={{marginTop:"3px"}}/></Link>
                             </div>
                             <Link to="/Cources"> <a>COURCES</a></Link>
                         </div>

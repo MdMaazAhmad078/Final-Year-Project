@@ -15,12 +15,27 @@
 }
 .drive_card{
     width:25%;
-    height:10rem;
+    height:21rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    font-family: Comic Sans MS;
+}
+.drive_card img{
+    height: 10rem;
+    width: -webkit-fill-available;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
 }
-.drive_card img{
-    height: inherit;
-    width: -webkit-fill-available;
+.drive_card_content {
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.drive_card_content .company_name{   
+    font-size: 1.5rem;
+    margin: 10px 0px 20px 0px;
+}
+.drive_card_content p{
+    margin: 10px 0px 10px 0px;
 }

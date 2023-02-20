@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import Dashboard from "./Components/Dashboard";
 import Drives from "./Components/Drives";
 import Cources from "./Components/Cources";
+import Profile from "./Components/Profile";
 import Header from "./Components/Header";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
               <Route path="/" exact component={Dashboard} />
               <Route path="/Drives" exact component={Drives} />
               <Route path="/Cources" exact component={Cources} />
+              <Route path="/Profile" exact component={Profile} />
               {/* <Route path="/Signup" exact component={Signup} /> */}
               {/* <Sidebar /> */}
               {/* <Route path="/Dashboard" exact component={Dashboard} /> */}

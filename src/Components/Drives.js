@@ -15,24 +15,54 @@ export default function Drives() {
                 <div className='card_row'>
                     <div className='drive_card'>
                         <img src={Juspay} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={DeltaX} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={TCS} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={Mahindra} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                 </div>
-                <br/>
+                <br />
                 <div className='card_row'>
                     <div className='drive_card'>
                         <img src={Dell} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={amdocs} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                 </div>
                 <div className="drive_card_title" >Upcoming Drives</div>
@@ -40,24 +70,54 @@ export default function Drives() {
                 <div className='card_row'>
                     <div className='drive_card'>
                         <img src={Juspay} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={DeltaX} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={TCS} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={Mahindra} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                 </div>
-                <br/>
+                <br />
                 <div className='card_row'>
                     <div className='drive_card'>
                         <img src={Dell} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                     <div className='drive_card'>
                         <img src={amdocs} />
+                        <div className='drive_card_content'>
+                            <p className='company_name'>Juspay</p>
+                            <p >Role: Full Stack Developer</p>
+                            <p >CTC: 9 LPA</p>
+                        </div>
                     </div>
                 </div>
             </div>
